@@ -11,13 +11,10 @@ size of String (largest allowed in program) = (bytes) = 8 * (int) ((((197) * 2) 
 size of int = 16 bytes
 
 In the main method of the program a string is requested from the user. resulting in 430 bytes being used. That string is then converted into a long variable resulting in 16 bytes being used.
-
 That Long variable is then pushed into the sayTheNumber method using another 16 bytes of memory.
-
 Another string is then created (430 bytes)
-
 long is then passed into numToWords resultin in another (16) bytes based on input another string is generated (430)
-
 The variable int variable unitNameIndex was also created (16)
-
 Taking all this into consideration we're sitting at a max value of (430 + 16 + 16 + 430 + 16 + 430 + 16) = 1354 bytes in total being consumed
+
+I have not had much experience in testing and therefore could not complete 100%.
